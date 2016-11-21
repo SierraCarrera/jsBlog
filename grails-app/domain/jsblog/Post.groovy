@@ -9,6 +9,6 @@ class Post {
     static constraints = {
         title(nullable:true)
         author(nullable:false)
-        content(nullable:false)
+        content(nullable:false, minSize:1000)
     }
 }
