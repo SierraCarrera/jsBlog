@@ -19,12 +19,10 @@
 	<body>
 		<div class="jumbotron">
 			<div class="container text-center">
-				<h1>Welcome to my blog!</h1>
-					<div class="row">
-						<div class="col-lg-6>Here are some posts...</div>
-						<div class="col-lg-6>Here are some comments...</div>
-					</div>
+				<h1>Welcome to the greatest blog ever conceived!</h1>
+				<g:layoutBody/>
 			</div>
+			<div class="panel-footer text-center">Copyright - 2016 | Joel Sierra</div>
 		</div>
 	</body>
 </html>

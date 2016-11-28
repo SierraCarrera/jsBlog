@@ -2,5 +2,5 @@ package jsblog
 
 class CommentController {
 
-    def scaffold = true 
+    def scaffold = true
 }

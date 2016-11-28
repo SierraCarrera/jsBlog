@@ -4,8 +4,9 @@ class Comment {
 
     String author
     String content
+    Date dateCreated
 
-    static belongTo = [post:Post]
+    static belongsTo = [post:Post]
 
     static constraints = {
         author(nullable:false)
